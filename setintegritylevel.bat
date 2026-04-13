@@ -1,0 +1,1 @@
+icacls "./sandbox_root" /setintegritylevel "(OI)(CI)L"
