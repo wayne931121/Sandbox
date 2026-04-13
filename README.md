@@ -22,3 +22,7 @@ rem this exe is windows x64 file, however you can compile it by yourself!
 rem you need gcc installed first.
 .\compile.bat
 ```
+
+# How to Change Main Script?
+
+Edit main.bat
