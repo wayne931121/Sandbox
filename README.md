@@ -3,7 +3,7 @@ Sandbox for Windows !
 
 # How does this work?
 
-Only Access Low Setintegritylevel Files
+This will open a new CLI, Only Access Low Setintegritylevel Files
 - Read: All Files Access.
 - Write: Only Low Setintegritylevel Files Can Be Writed.
 
