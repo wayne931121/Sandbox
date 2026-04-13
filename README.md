@@ -10,6 +10,7 @@ This will open a new CLI, Only Access Low Setintegritylevel Files
 # How to Run?
 
 ```bat
+rem setintegritylevel.bat only need to run in first time.
 .\setintegritylevel.bat
 rem this exe is windows x64 file, however you can compile it by yourself!
 .\windows.exe
