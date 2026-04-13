@@ -25,4 +25,6 @@ rem you need gcc installed first.
 
 # How to Change Main Script?
 
-Edit main.bat
+- Edit main.bat
+- Edit config.bat
+- Edit windows.c
