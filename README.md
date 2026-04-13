@@ -14,3 +14,10 @@ Only Access Low Setintegritylevel Files
 rem this exe is windows x64 file, however you can compile it by yourself!
 .\windows.exe
 ```
+
+# How to Compile?
+
+```bat
+rem you need gcc installed first.
+.\compile.bat
+```
