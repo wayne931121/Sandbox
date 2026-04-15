@@ -32,5 +32,15 @@ rem you need gcc installed first.
 # 2. Using Sandbox.exe
 if you don't want to use windows.exe.
 ```text
-.\sandbox.exe "\"C:\Windows\System32\cmd.exe\" /v /k \"chcp 65001 ^& .\main.bat ^& echo 你好OK\""
+.\sandbox.exe "\"C:\\Windows\\System32\\cmd.exe\" /v /k \"chcp 65001 ^& .\\main.bat ^& echo 你好OK\""
+```
+# 3. Using Sandbox-cmd.exe
+if you don't want to use windows.exe.
+```cmd
+.\sandbox-cmd.exe "chcp 65001 & .\main.bat & echo 你好OK"
+```
+# 4. Using Sandbox-cmd-c.exe
+if you don't want to use windows.exe.
+```cmd
+.\sandbox-cmd-c.exe "chcp 65001 & .\main.bat & echo 你好OK & pause"
 ```
