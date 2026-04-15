@@ -31,11 +31,18 @@ rem you need gcc installed first.
 
 # 2. Using Sandbox.exe
 if you don't want to use windows.exe.
-```text
+
+cmd/batch
+```cmd
 rem setintegritylevel.bat only need to run in the first time.
 .\setintegritylevel.bat
 rem this exe is windows x64 file, however you can compile it by yourself!
 .\sandbox.exe "\"C:\\Windows\\System32\\cmd.exe\" /v /k \"chcp 65001 ^& .\\main.bat ^& echo 你好OK\""
+```
+powershell
+```ps1
+.\setintegritylevel.bat
+.\sandbox.exe "\""C:\\Windows\\System32\\cmd.exe\"" /v /k \""chcp 65001 & .\\main.bat & echo 你好OK\"""
 ```
 # 3. Using Sandbox-cmd.exe
 if you don't want to use windows.exe.
