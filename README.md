@@ -29,7 +29,7 @@ rem you need gcc installed first.
 - Edit config.bat
 - Edit windows.c
 
-# Using Sandbox.exe
+# 2. Using Sandbox.exe
 if you don't want to use windows.exe.
 ```text
 .\sandbox.exe "\"C:\Windows\System32\cmd.exe\" /v /k \"chcp 65001 ^& .\main.bat ^& echo 你好OK\""
