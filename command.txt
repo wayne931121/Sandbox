@@ -1,6 +1,9 @@
 "C:\Windows\System32\cmd.exe" /v /k "chcp 65001 & .\main.bat & echo 你好OK"
 
 .\sandbox.exe "\"C:\Windows\System32\cmd.exe\" /v /k \"chcp 65001 ^& .\main.bat ^& echo 你好OK\""
+.\sandbox.exe "\"C:\\Windows\\System32\\cmd.exe\" /v /k \"chcp 65001 ^& .\\main.bat ^& echo 你好OK\""
+.\sandbox-cmd.exe "chcp 65001 & .\main.bat & echo 你好OK"
+.\sandbox-cmd-c.exe "chcp 65001 & .\main.bat & echo 你好OK & pause"
 
-Note: \" is " in C escape.
-Note: ^& is & in CMD/BAT escape.
+Note: \" is " in C escape. when C read.
+Note: ^& is & in CMD/BAT escape. when C:\Windows\System32\cmd.exe "..."
