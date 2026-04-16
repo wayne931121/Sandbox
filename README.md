@@ -60,3 +60,9 @@ rem setintegritylevel.bat only need to run in the first time.
 rem this exe is windows x64 file, however you can compile it by yourself!
 .\sandbox-cmd-c.exe "chcp 65001 & .\main.bat & echo 你好OK & pause"
 ```
+
+# What's the different?
+- windows.exe open the config.bat, the config.bat open the main.bat
+- sandbox.exe recive the argument from cmd, and execute.
+- sandbox-cmd.exe recive the argument from cmd, and execute by cmd.exe
+- sandbox-cmd-c.exe recive the argument from cmd, and execute by cmd.exe, close cmd after finished.
